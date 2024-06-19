@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Tienda Linda</title>
+        <link rel="stylesheet" href="resources/styles.css">
+    </head>
+
+    <script src="resources/main.js"></script>
+
+    <body>
+        <header>
+            <div class="container">
+                <a href="#Contacto"><img src="assets/images/logo.png" alt="Logo" class="logo"></a>
+                <nav>
+                    <ul>
+                        <li><a href="#Explorar">Explorar</a></li>
+                        <li><a href="#Ofertas">Productos</a></li>
+                        <li><a href="resources/tienda.html">Tienda</a></li>
+                        <li><a href="resources/ofertas.html">Ofertas</a></li>
+                        <li><a href="#Contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="slider">
+                <div class="slider-container">
+                    <div class="slides">
+                        <div class="slide">
+                            <a href="resources/ofertas.html"><img src="assets/images/slider_1.png" alt="Slide 1" class="slider-image"></a>
+                        </div>
+                        <div class="slide">
+                            <a href="resources/ofertas.html"><img src="assets/images/slider_2.png" alt="Slide 2" class="slider-image"></a>
+                        </div>
+                        <div class="slide">
+                            <a href="resources/ofertas.html"><img src="assets/images/slider_3.png" alt="Slide 3" class="slider-image"></a>
+                        </div>
+                        <div class="slide">
+                            <a href="resources/ofertas.html"><img src="assets/images/slider_4.jpg" alt="Slide 4" class="slider-image"></a>
+                        </div>
+                        <div class="slide">
+                            <a href="resources/ofertas.html"><img src="assets/images/slider_5.png" alt="Slide 5" class="slider-image"></a>
+                        </div>
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                </div>
+            </section>
+            <a name="Explorar" id="Explorar"></a>
+            <h1 class="titulo">¿Quienes somos?</h1>
+            <section class="Explorar">
+                <img src="assets/images/logo_2.png" alt="Logo 2" class="text-image" title="Tienda Linda">
+                <p>En Tienda Linda, somos una pequeña empresa dedicada a ofrecer ropa de mujer que combina estilo, comodidad y calidad. Fundada con la pasión por la moda y el deseo de empoderar a las mujeres a través de su vestimenta, nos esforzamos por ser más que solo una tienda de ropa: queremos ser tu fuente de inspiración y confianza en cada prenda que elijas.</p>
+                <p>Nuestro equipo está compuesto por entusiastas de la moda que creen firmemente en la importancia de sentirse bien con lo que llevas puesto. Cada pieza en nuestra colección es seleccionada cuidadosamente, asegurando que refleje las últimas tendencias sin comprometer la comodidad ni la calidad.</p>
+                <p>En Tienda Linda, valoramos la diversidad y la individualidad. Sabemos que cada mujer es única, y nuestra misión es ofrecer opciones que se adapten a diferentes estilos, formas y personalidades. Nos enorgullecemos de proporcionar un servicio personalizado, donde cada clienta se sienta escuchada y atendida.</p>
+                <p>Nos comprometemos con la sostenibilidad y la ética en la moda. Por ello, trabajamos con proveedores que comparten nuestros valores, priorizando prácticas responsables que minimicen el impacto ambiental. Creemos que la moda puede ser bella y respetuosa con nuestro planeta al mismo tiempo.</p>
+                <p>Te invitamos a descubrir Tienda Linda, donde cada prenda es una expresión de nuestro amor por la moda y nuestro compromiso contigo. Ven y encuentra tu estilo con nosotros; estamos aquí para hacerte sentir linda todos los días.</p>
+                <p>Tienda Linda – Donde la moda y la confianza se encuentran.</p>
+            </section>
+            <a name="Ofertas" id="Ofertas"></a>
+            <h1 class="titulo">Nuestros productos</h1>
+            <section class="Ofertas" id="Ofertas">
+                <p>En Tienda Linda, la calidad es nuestra prioridad. Cada prenda que ofrecemos está confeccionada con materiales seleccionados cuidadosamente para garantizar durabilidad y confort. Nos aseguramos de trabajar con proveedores que comparten nuestro compromiso con la excelencia, utilizando técnicas de producción que aseguran acabados impecables.</p>
+                <p>Nuestra dedicación a la calidad significa que cada artículo es sometido a estrictos controles antes de llegar a tus manos. Queremos que cada vez que elijas una prenda de Tienda Linda, sientas la confianza de llevar algo especial, hecho con esmero y pensado para ti.</p>
+                <ul class="categorias">
+                    <li>
+                        <h2>Blusas</h2>
+                        <a href="resources/tienda.html#blusas"><img src="assets/images/blusas.png" alt="Blusas" class="imagenes-categorias"></a>
+                    </li>
+                    <li>
+                        <h2>Pantalones</h2>
+                        <a href="resources/tienda.html#pantalones"><img src="assets/images/pantalones.png" alt="Pantalones" class="imagenes-categorias"></a>
+                    </li>
+                    <li>
+                        <h2>Calzado</h2>
+                        <a href="resources/tienda.html#calzado"><img src="assets/images/calzado.png" alt="Calzado" class="imagenes-categorias"></a>
+                    </li>
+                </ul>
+            </section>
+            <a name="Contacto" id="Contacto"></a>
+            <h1 class="titulo">Contacto</h1>
+            <section class="Contacto" id="Contacto">
+                <p>Puedes contactarnos por los siguientes medios:</p>
+                <ol>
+                    <li><a href="mailto::salute.sabe@outlook.com" class="link-contacto">Correo electrónico</a></li>
+                    <li><a href="https://x.com/convex_cnvx" class="link-contacto">Twitter</a></li>
+                </ol>
+            </section>
+        </main>
+        <footer>
+            <p>Esta pagina no esta asociada de ninguna forma a alguna tienda de ropa, no es oficial de ninguna forma y no busca serlo. El creador es Vázquez López Diego de la universidad UPIICSA como parte de un proyecto.</p>
+        </footer>
+    </body>
+
+</html>
